@@ -1,12 +1,13 @@
-import logo from './logo.svg';
-//import './App.css';
+
+import './App.css';
+import AddTodo from './Components/AddTodo';
+import ListTodo from './Components/ListTodo';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        hello
-      </header>
+      <AddTodo />
+      <ListTodo />
     </div>
   );
 }
